@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gamedev canvas</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      #btn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 5vh;
+        padding: 10px 30px;
+        font-size: 32px;
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ブロック崩しゲーム</h1>
+    <canvas id="myCanvas" width="520" height="620"></canvas>
+    <button id="btn">start</button>
+    <script src="app.js"></script>
+  </body>
+</html>
