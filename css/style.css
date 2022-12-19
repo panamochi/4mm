@@ -46,7 +46,7 @@ img {
 .main-theme_area {
   padding: 20px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 100px;
 }
 
 .main-theme_ttl {
@@ -129,11 +129,11 @@ img {
 
 .slide-area {
   margin-top: 20px;
+  align-items: center;
 }
 
 .slide {
   display: flex;
-  align-items: center;
 }
 
 .content3 .slide-area,
